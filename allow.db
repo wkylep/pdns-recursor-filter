@@ -1,0 +1,16 @@
+# Sample Allow List File
+# Use Unix (\n) Line Endings
+#
+# Windows Update
+#
+microsoft.com
+windowsupdate.com
+iegallery.com
+vo.msecnd.com
+msftncsi.com
+#
+# Allowed Websites
+#
+google.com
+google-analytics.com
+gmail.com
