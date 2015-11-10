@@ -44,6 +44,7 @@ function preresolve(requestorip, domain, qtype)
 		if check_iap_acl(block_list, domain) then
 			-- Redirect on Block List Match
 			return 0, { {qtype=pdns.A, content=ipv4_redirect_host} }
+		else
 			-- Continue (Default Policy)
 			return -1, {}
 		end
