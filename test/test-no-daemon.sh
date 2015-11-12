@@ -1,2 +1,2 @@
 #!/bin/bash
-pdns_recursor --daemon=no --queit=no loglevel=4
+pdns_recursor --daemon=no --quiet=no loglevel=4
